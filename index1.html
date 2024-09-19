@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy</title>
+    <link rel="stylesheet" href="./mood.css">
+</head>
+<body>
+    <div id="header">
+        <img src="./457722112_848590920708515_679060876180983449_n.png" alt="happy">
+        <h1>HAPPY MOOD</h1>
+        <hr>
+    </div>
+        <div class="intro">
+            <h2>Current Courses</h2>
+            <ul>
+                <li>CSE 451 - HTML(<a href="https://www.w3schools.com/html/">Link</a>)</li>
+                <li>CSE 543 - Math</li>
+                <li>CSE 122 - Research</li>
+            </ul>
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Game</li>
+                <li>Music</li>
+                <li>Movies</li>
+            </ul>
+        </div>
+        <div class="course">
+            <h2>Course</h2>
+            <table class="course-table">
+                <tr>
+                    <th>Course Number</th>
+                    <th>Course Title</th>
+                    <th>Semester Taken</th>
+                </tr>
+                <tr>
+                    <th colspan="3">For Credit</th>
+                </tr>
+                <tr>
+                    <td>6.813</td>
+                    <td>User Interface Design</td>
+                    <td>Spring 2014</td>
+                </tr>
+                <tr>
+                    <td>6.034</td>
+                    <td>Artificial Intelligence</td>
+                    <td>Fall 2013</td>
+                </tr>
+                <tr>
+                    <td>6.006</td>
+                    <td>Introduction to Algorithms</td>
+                    <td>Fall 2013</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Listener</th>
+                </tr>
+                <tr>
+                    <td>6.867</td>
+                    <td>Machine Learning</td>
+                    <td>Fall 2013</td>
+                </tr>
+                <tr>
+                    <td>6.867</td>
+                    <td>Database Systems</td>
+                    <td>Fall 2012</td>
+                </tr>
+            </table>
+        </div>
+        <div class="submit-info">
+            <h2>Submit Information</h2>
+            <form action="">
+                <table class="info">
+                    <tbody>
+                        <!-- Full name -->
+                        <tr>
+                            <td><label for="full-name">Fullname</label></td>
+                            <td><input type="text" id="full-name"></td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td>
+                                <input type="radio" name="male" id="male">
+                                <label for="male">Male</label>
+                                <input type="radio" name="female" id="female">
+                                <label for="male">Female</label>
+                                <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Hobbies</td>
+                            <td>
+                                <input type="checkbox" name="music" id="music">
+                                <label for="music">Music</label>
+                                <br>
+                                <input type="checkbox" name="game" id="game">
+                                <label for="game">Game</label>
+                                <br>
+                                <input type="checkbox" name="movie" id="movie">
+                                <label for="movie">Movies</label>
+                                <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Date of birth </td>
+                            <td><input type="date" name="birthday" id="birthday"></td>
+                        </tr>
+                        <tr>
+                            <td>Country</td>
+                            <td>
+                                <select name="country" id="country">
+                                    <option value="hanoi">Hà Nội</option>
+                                    <option value="haiduong">Hải Dương</option>
+                                    <option value="hungyen">Hưng Yên</option>
+                                    <option value="bacgiang">Bắc Giang</option>
+                                    <option value="hatinh">Hà Tĩnh</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Picture</td>
+                            <td>
+                                <input type="file" name="image" id="image">
+                                <input type="submit" value="Submit">
+                            </td>
+                        </tr>
+                        <tr>
+                           <td>
+                            <label for="email">Email</label>
+                           </td>
+                           <td>
+                            <input type="email" id="email" name="email">
+                           </td>
+                        </tr>
+                        <tr>
+                            <td><label for="password">Password</label></td>
+                            <td>
+                                <input type="password" name="password" id="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3"><label for="favorite-word">Favorite-word</label></td>
+                            <td>
+                                <textarea name="favorite-word" id="favorite-word"></textarea>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+        <a href="../index.html">Back</a>
+</body>
+</html>
